@@ -5,7 +5,7 @@ import plotly.express as px
 # Load the monthly and yearly data
 @st.cache_resource
 def load_data():
-    file_path = '/home/florian/DocumentsStrom_3.xlsx'  # Update this path if needed
+    file_path = '/Strom_2.xlsx'  # Update this path if needed
 
     # Load monthly data
     monthly_data = pd.read_excel(file_path, skiprows=1, sheet_name=0)
